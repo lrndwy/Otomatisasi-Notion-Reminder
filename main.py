@@ -171,7 +171,24 @@ class NotionTelegramBot:
 
             # Format pesan
             if change_type == "add":
-                message_header = f"✨ *Tugas Baru Ditambahkan!* oleh {created_by_name}"
+                if due_date != "N/A":
+                    try:
+                        due_dt = datetime.strptime(due_date, '%Y-%m-%d')
+                        today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+                        if due_dt > today:
+                            delta = (due_dt - today).days
+                            if delta == 1:
+                                message_header = f"✨ *Tugas Baru Ditambahkan!* (Besok) oleh {created_by_name}"
+                            elif delta > 1:
+                                message_header = f"✨ *Tugas Baru Ditambahkan!* (Dalam {delta} hari) oleh {created_by_name}"
+                            else:
+                                message_header = f"✨ *Tugas Baru Ditambahkan!* oleh {created_by_name}"
+                        else:
+                            message_header = f"✨ *Tugas Baru Ditambahkan!* oleh {created_by_name}"
+                    except ValueError:
+                        message_header = f"✨ *Tugas Baru Ditambahkan!* oleh {created_by_name}"
+                else:
+                    message_header = f"✨ *Tugas Baru Ditambahkan!* oleh {created_by_name}"
             elif change_type == "delete":
                 message_header = "🗑️ *Tugas Dihapus!*"
             elif change_type == "update":
