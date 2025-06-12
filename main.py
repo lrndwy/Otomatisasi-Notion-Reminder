@@ -146,8 +146,14 @@ class NotionTelegramBot:
 
             # Helper function to get user name from 'created_by' or 'last_edited_by' objects
             def get_user_name(user_obj):
-                if user_obj and user_obj.get('object') == 'user':
-                    return user_obj.get('name', 'Unknown User')
+                if user_obj:
+                    obj_type = user_obj.get('object')
+                    if obj_type == 'person':
+                        return user_obj.get('name', 'Unknown Person')
+                    elif obj_type == 'bot':
+                        # For bots, the name might be directly under the user_obj
+                        # or in a nested 'bot' object. Try direct name first.
+                        return user_obj.get('name', user_obj.get('bot', {}).get('owner', {}).get('user', {}).get('name', 'Unknown Bot'))
                 return 'Unknown User'
 
             task_title = get_property_value("Task Name", "title")
