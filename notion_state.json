@@ -1,1875 +1,218 @@
 {
   "20d2171f-5418-804d-b62e-c4799954eea9": {
-    "object": "page",
-    "id": "20d2171f-5418-804d-b62e-c4799954eea9",
-    "created_time": "2025-06-09T01:21:00.000Z",
-    "last_edited_time": "2025-06-10T13:32:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "1ebd872b-594c-8136-9dea-00020c0b3ab8"
-    },
-    "cover": null,
-    "icon": {
-      "type": "emoji",
-      "emoji": "\ud83e\udec2"
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "0a77a2d4-e7a3-4cc2-b4ca-02f90eeb9095",
-          "name": "General Task",
-          "color": "red"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": [
-          {
-            "object": "user",
-            "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef",
-            "name": "liar",
-            "avatar_url": "https://lh3.googleusercontent.com/a-/AFdZucponVNvI--tSUYmJd--NqJQ5J4GddFbYHtZoZJV0Q=s100",
-            "type": "person",
-            "person": {
-              "email": "hafiztamvan15@gmail.com"
-            }
-          }
-        ]
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": null
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "=lhH",
-          "name": "In Progress",
-          "color": "blue"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": {
-          "id": "AW?a",
-          "name": "High",
-          "color": "red"
-        }
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Client Website UMKM Pak Tony",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Client Website UMKM Pak Tony",
-            "href": null
-          }
-        ]
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": 12
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Pak Tony Client",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Pak Tony Client",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-15T04:56:00.000Z",
     "url": "https://www.notion.so/Pak-Tony-Client-20d2171f5418804db62ec4799954eea9",
-    "public_url": null
+    "title": "Pak Tony Client",
+    "category": "General Task",
+    "assignee": "liar",
+    "due_date": "2025-06-13",
+    "status": "Not Started",
+    "priority": "High",
+    "description": "Client Website UMKM Pak Tony",
+    "progress": "0"
   },
   "1ef2171f-5418-8018-97fc-da9e0ef2461a": {
-    "object": "page",
-    "id": "1ef2171f-5418-8018-97fc-da9e0ef2461a",
-    "created_time": "2025-05-10T06:38:00.000Z",
-    "last_edited_time": "2025-05-10T07:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/checklist_gray.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "SJFv",
-          "name": "Service & Product Sample",
-          "color": "pink"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-29",
-          "end": "2025-05-31",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "?A<K",
-          "name": "Not Started",
-          "color": "gray"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Finalisasi Company",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Finalisasi Company",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-12T06:12:00.000Z",
     "url": "https://www.notion.so/Finalisasi-Company-1ef2171f5418801897fcda9e0ef2461a",
-    "public_url": null
+    "title": "Finalisasi Company",
+    "category": "Service & Product Sample",
+    "assignee": "liar",
+    "due_date": "2025-05-29",
+    "status": "Not Started",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ef2171f-5418-80d2-829f-fe900bc0ba02": {
-    "object": "page",
-    "id": "1ef2171f-5418-80d2-829f-fe900bc0ba02",
-    "created_time": "2025-05-10T06:38:00.000Z",
-    "last_edited_time": "2025-05-30T15:43:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/checklist_gray.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "SJFv",
-          "name": "Service & Product Sample",
-          "color": "pink"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-28",
-          "end": "2025-05-29",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "=lhH",
-          "name": "In Progress",
-          "color": "blue"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Review dan Testing",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Review dan Testing",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-12T06:12:00.000Z",
     "url": "https://www.notion.so/Review-dan-Testing-1ef2171f541880d2829ffe900bc0ba02",
-    "public_url": null
+    "title": "Review dan Testing",
+    "category": "Service & Product Sample",
+    "assignee": "liar",
+    "due_date": "2025-05-28",
+    "status": "In Progress",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ef2171f-5418-80f6-985e-e746e095f7e9": {
-    "object": "page",
-    "id": "1ef2171f-5418-80f6-985e-e746e095f7e9",
-    "created_time": "2025-05-10T06:37:00.000Z",
     "last_edited_time": "2025-05-30T15:43:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/checklist_gray.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "SJFv",
-          "name": "Service & Product Sample",
-          "color": "pink"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-22",
-          "end": "2025-05-27",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "=lhH",
-          "name": "In Progress",
-          "color": "blue"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Melanjutkan Pembuatan Website",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Melanjutkan Pembuatan Website",
-            "href": null
-          }
-        ]
-      }
-    },
     "url": "https://www.notion.so/Melanjutkan-Pembuatan-Website-1ef2171f541880f6985ee746e095f7e9",
-    "public_url": null
+    "title": "Melanjutkan Pembuatan Website",
+    "category": "Service & Product Sample",
+    "assignee": "N/A",
+    "due_date": "2025-05-22",
+    "status": "In Progress",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ef2171f-5418-8032-b5fc-f21fb43f4220": {
-    "object": "page",
-    "id": "1ef2171f-5418-8032-b5fc-f21fb43f4220",
-    "created_time": "2025-05-10T06:37:00.000Z",
     "last_edited_time": "2025-05-12T11:49:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "7657d25e-e26c-4829-94c4-c2b05ea2a2dc"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/checklist_gray.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "SJFv",
-          "name": "Service & Product Sample",
-          "color": "pink"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-17",
-          "end": null,
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "?A<K",
-          "name": "Not Started",
-          "color": "gray"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Pembuatan Website",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Pembuatan Website",
-            "href": null
-          }
-        ]
-      }
-    },
     "url": "https://www.notion.so/Pembuatan-Website-1ef2171f54188032b5fcf21fb43f4220",
-    "public_url": null
+    "title": "Pembuatan Website",
+    "category": "Service & Product Sample",
+    "assignee": "N/A",
+    "due_date": "2025-05-17",
+    "status": "Not Started",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ef2171f-5418-80d1-82c3-c75f44cfb08b": {
-    "object": "page",
-    "id": "1ef2171f-5418-80d1-82c3-c75f44cfb08b",
-    "created_time": "2025-05-10T06:37:00.000Z",
-    "last_edited_time": "2025-05-11T03:36:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/color-palette_blue.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "SJFv",
-          "name": "Service & Product Sample",
-          "color": "pink"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-10",
-          "end": "2025-05-16",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "=lhH",
-          "name": "In Progress",
-          "color": "blue"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Produksi Konten & Desain",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Produksi Konten & Desain",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-12T06:16:00.000Z",
     "url": "https://www.notion.so/Produksi-Konten-Desain-1ef2171f541880d182c3c75f44cfb08b",
-    "public_url": null
+    "title": "Produksi Konten & Desain",
+    "category": "Service & Product Sample",
+    "assignee": "liar",
+    "due_date": "2025-05-10",
+    "status": "In Progress",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ef2171f-5418-801f-a7d5-db0394f09c0e": {
-    "object": "page",
-    "id": "1ef2171f-5418-801f-a7d5-db0394f09c0e",
-    "created_time": "2025-05-10T06:24:00.000Z",
-    "last_edited_time": "2025-05-10T06:59:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/checklist_gray.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "SJFv",
-          "name": "Service & Product Sample",
-          "color": "pink"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-07",
-          "end": "2025-05-10",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "=lhH",
-          "name": "In Progress",
-          "color": "blue"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Persiapan ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Persiapan ",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-12T06:16:00.000Z",
     "url": "https://www.notion.so/Persiapan-1ef2171f5418801fa7d5db0394f09c0e",
-    "public_url": null
+    "title": "Persiapan ",
+    "category": "Service & Product Sample",
+    "assignee": "liar",
+    "due_date": "2025-05-07",
+    "status": "In Progress",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ed2171f-5418-800b-97a9-db9c98c9122b": {
-    "object": "page",
-    "id": "1ed2171f-5418-800b-97a9-db9c98c9122b",
-    "created_time": "2025-05-08T02:18:00.000Z",
-    "last_edited_time": "2025-05-22T14:44:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "1ebd872b-594c-8136-9dea-00020c0b3ab8"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "1ebd872b-594c-8136-9dea-00020c0b3ab8"
-    },
-    "cover": null,
-    "icon": {
-      "type": "emoji",
-      "emoji": "\ud83d\udcf1"
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "RZzW",
-          "name": "Marketing & Management",
-          "color": "green"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-16",
-          "end": "2025-06-14",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "CPup",
-          "name": "Completed",
-          "color": "green"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": {
-          "id": "AW?a",
-          "name": "High",
-          "color": "red"
-        }
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Social Media Admin",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Social Media Admin",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-13T13:30:00.000Z",
     "url": "https://www.notion.so/Social-Media-Admin-1ed2171f5418800b97a9db9c98c9122b",
-    "public_url": null
+    "title": "Social Media Admin",
+    "category": "Marketing & Management",
+    "assignee": "N/A",
+    "due_date": "2025-06-13",
+    "status": "Not Started",
+    "priority": "High",
+    "description": "N/A",
+    "progress": "70"
   },
   "1ed2171f-5418-801d-9bdc-c980d57ad16b": {
-    "object": "page",
-    "id": "1ed2171f-5418-801d-9bdc-c980d57ad16b",
-    "created_time": "2025-05-08T02:08:00.000Z",
-    "last_edited_time": "2025-05-25T05:32:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "1ebd872b-594c-8136-9dea-00020c0b3ab8"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "cover": null,
-    "icon": {
-      "type": "emoji",
-      "emoji": "\ud83d\udce6"
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "RZzW",
-          "name": "Marketing & Management",
-          "color": "green"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-14",
-          "end": "2025-05-16",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "=lhH",
-          "name": "In Progress",
-          "color": "blue"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": {
-          "id": "AW?a",
-          "name": "High",
-          "color": "red"
-        }
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Product & Service Management ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Product & Service Management ",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-13T13:30:00.000Z",
     "url": "https://www.notion.so/Product-Service-Management-1ed2171f5418801d9bdcc980d57ad16b",
-    "public_url": null
+    "title": "Product & Service Management ",
+    "category": "Marketing & Management",
+    "assignee": "N/A",
+    "due_date": "2025-06-13",
+    "status": "Not Started",
+    "priority": "High",
+    "description": "N/A",
+    "progress": "95"
   },
   "1ed2171f-5418-809a-9fdb-c7c58ac958f2": {
-    "object": "page",
-    "id": "1ed2171f-5418-809a-9fdb-c7c58ac958f2",
-    "created_time": "2025-05-08T01:41:00.000Z",
-    "last_edited_time": "2025-05-16T15:30:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "1ebd872b-594c-8136-9dea-00020c0b3ab8"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "1ebd872b-594c-8136-9dea-00020c0b3ab8"
-    },
-    "cover": null,
-    "icon": {
-      "type": "emoji",
-      "emoji": "\ud83d\udc65"
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "RZzW",
-          "name": "Marketing & Management",
-          "color": "green"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-15",
-          "end": null,
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "=lhH",
-          "name": "In Progress",
-          "color": "blue"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": {
-          "id": "AW?a",
-          "name": "High",
-          "color": "red"
-        }
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Looking for Clients",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Looking for Clients",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-14T02:46:00.000Z",
     "url": "https://www.notion.so/Looking-for-Clients-1ed2171f5418809a9fdbc7c58ac958f2",
-    "public_url": null
+    "title": "Looking for Clients",
+    "category": "Marketing & Management",
+    "assignee": "N/A",
+    "due_date": "2025-06-13",
+    "status": "In Progress",
+    "priority": "High",
+    "description": "N/A",
+    "progress": "75"
   },
   "1ec2171f-5418-800f-ad77-c6ec5987a3f1": {
-    "object": "page",
-    "id": "1ec2171f-5418-800f-ad77-c6ec5987a3f1",
-    "created_time": "2025-05-07T16:39:00.000Z",
     "last_edited_time": "2025-06-12T01:34:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "14ad872b-594c-811e-9fae-00029a800e88"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/alien_green.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "SJFv",
-          "name": "Service & Product Sample",
-          "color": "pink"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": null
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "?A<K",
-          "name": "Not Started",
-          "color": "gray"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Profile Company ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Profile Company ",
-            "href": null
-          }
-        ]
-      }
-    },
     "url": "https://www.notion.so/Profile-Company-1ec2171f5418800fad77c6ec5987a3f1",
-    "public_url": null
+    "title": "Profile Company ",
+    "category": "Service & Product Sample",
+    "assignee": "N/A",
+    "due_date": "N/A",
+    "status": "Not Started",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ec2171f-5418-800f-89e0-fc68ac242049": {
-    "object": "page",
-    "id": "1ec2171f-5418-800f-89e0-fc68ac242049",
-    "created_time": "2025-05-07T16:37:00.000Z",
     "last_edited_time": "2025-05-11T03:30:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "178d872b-594c-81af-befa-0002b30818bd"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/alien_pink.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "SJFv",
-          "name": "Service & Product Sample",
-          "color": "pink"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": null
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "?A<K",
-          "name": "Not Started",
-          "color": "gray"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Profile School ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Profile School ",
-            "href": null
-          }
-        ]
-      }
-    },
     "url": "https://www.notion.so/Profile-School-1ec2171f5418800f89e0fc68ac242049",
-    "public_url": null
+    "title": "Profile School ",
+    "category": "Service & Product Sample",
+    "assignee": "N/A",
+    "due_date": "N/A",
+    "status": "Not Started",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ec2171f-5418-80fc-a0e4-fbf144cc7b87": {
-    "object": "page",
-    "id": "1ec2171f-5418-80fc-a0e4-fbf144cc7b87",
-    "created_time": "2025-05-07T15:08:00.000Z",
-    "last_edited_time": "2025-05-10T13:16:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "7657d25e-e26c-4829-94c4-c2b05ea2a2dc"
-    },
-    "cover": null,
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/factory_green.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "F~Yh",
-          "name": "SMS (School Management System)",
-          "color": "blue"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-07-07",
-          "end": "2025-07-11",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "?A<K",
-          "name": "Not Started",
-          "color": "gray"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Deploy Go to Production",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Deploy Go to Production",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-12T06:12:00.000Z",
     "url": "https://www.notion.so/Deploy-Go-to-Production-1ec2171f541880fca0e4fbf144cc7b87",
-    "public_url": null
+    "title": "Deploy Go to Production",
+    "category": "SMS (School Management System)",
+    "assignee": "liar",
+    "due_date": "2025-07-07",
+    "status": "Not Started",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ec2171f-5418-8076-9536-dc79bb3b1c55": {
-    "object": "page",
-    "id": "1ec2171f-5418-8076-9536-dc79bb3b1c55",
-    "created_time": "2025-05-07T15:08:00.000Z",
-    "last_edited_time": "2025-05-10T13:16:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "7657d25e-e26c-4829-94c4-c2b05ea2a2dc"
-    },
-    "cover": null,
-    "icon": {
-      "type": "emoji",
-      "emoji": "\ud83e\uddea"
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "F~Yh",
-          "name": "SMS (School Management System)",
-          "color": "blue"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-06-30",
-          "end": "2025-07-04",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "?A<K",
-          "name": "Not Started",
-          "color": "gray"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": null
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Testing",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Testing",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-12T06:12:00.000Z",
     "url": "https://www.notion.so/Testing-1ec2171f541880769536dc79bb3b1c55",
-    "public_url": null
+    "title": "Testing",
+    "category": "SMS (School Management System)",
+    "assignee": "liar",
+    "due_date": "2025-06-30",
+    "status": "Not Started",
+    "priority": "N/A",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ec2171f-5418-80be-9515-c0c6efe7ec1f": {
-    "object": "page",
-    "id": "1ec2171f-5418-80be-9515-c0c6efe7ec1f",
-    "created_time": "2025-05-07T15:08:00.000Z",
-    "last_edited_time": "2025-06-09T01:26:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "cover": {
-      "type": "external",
-      "external": {
-        "url": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
-      }
-    },
-    "icon": {
-      "type": "emoji",
-      "emoji": "\ud83d\udda5\ufe0f"
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "F~Yh",
-          "name": "SMS (School Management System)",
-          "color": "blue"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-06-02",
-          "end": "2025-06-27",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "?A<K",
-          "name": "Not Started",
-          "color": "gray"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": {
-          "id": "AW?a",
-          "name": "High",
-          "color": "red"
-        }
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Development",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Development",
-            "href": null
-          }
-        ]
-      }
-    },
+    "last_edited_time": "2025-06-12T06:12:00.000Z",
     "url": "https://www.notion.so/Development-1ec2171f541880be9515c0c6efe7ec1f",
-    "public_url": null
+    "title": "Development",
+    "category": "SMS (School Management System)",
+    "assignee": "liar",
+    "due_date": "2025-06-02",
+    "status": "Not Started",
+    "priority": "High",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ec2171f-5418-80fe-9fb0-e5ad5e792478": {
-    "object": "page",
-    "id": "1ec2171f-5418-80fe-9fb0-e5ad5e792478",
-    "created_time": "2025-05-07T15:07:00.000Z",
     "last_edited_time": "2025-05-30T10:01:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "7657d25e-e26c-4829-94c4-c2b05ea2a2dc"
-    },
-    "cover": {
-      "type": "external",
-      "external": {
-        "url": "https://images.unsplash.com/photo-1667372459510-55b5e2087cd0?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
-      }
-    },
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/database_yellow.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "F~Yh",
-          "name": "SMS (School Management System)",
-          "color": "blue"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-26",
-          "end": "2025-05-30",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": ">kM{",
-          "name": "Waiting Review",
-          "color": "yellow"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": {
-          "id": "AW?a",
-          "name": "High",
-          "color": "red"
-        }
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": 100
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Database Structure",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Database Structure",
-            "href": null
-          }
-        ]
-      }
-    },
     "url": "https://www.notion.so/Database-Structure-1ec2171f541880fe9fb0e5ad5e792478",
-    "public_url": null
+    "title": "Database Structure",
+    "category": "SMS (School Management System)",
+    "assignee": "N/A",
+    "due_date": "2025-05-26",
+    "status": "Waiting Review",
+    "priority": "High",
+    "description": "N/A",
+    "progress": "100"
   },
   "1ec2171f-5418-801c-81ca-e579a95a2492": {
-    "object": "page",
-    "id": "1ec2171f-5418-801c-81ca-e579a95a2492",
-    "created_time": "2025-05-07T15:07:00.000Z",
     "last_edited_time": "2025-05-26T05:21:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "7657d25e-e26c-4829-94c4-c2b05ea2a2dc"
-    },
-    "cover": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/images/page-cover/nasa_earth_grid.jpg"
-      }
-    },
-    "icon": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/icons/subtask_blue.svg"
-      }
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "F~Yh",
-          "name": "SMS (School Management System)",
-          "color": "blue"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-19",
-          "end": "2025-05-23",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "=lhH",
-          "name": "In Progress",
-          "color": "blue"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": {
-          "id": "ZUYZ",
-          "name": "Medium",
-          "color": "yellow"
-        }
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": null
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Prototype",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Prototype",
-            "href": null
-          }
-        ]
-      }
-    },
     "url": "https://www.notion.so/Prototype-1ec2171f5418801c81cae579a95a2492",
-    "public_url": null
+    "title": "Prototype",
+    "category": "SMS (School Management System)",
+    "assignee": "N/A",
+    "due_date": "2025-05-19",
+    "status": "In Progress",
+    "priority": "Medium",
+    "description": "N/A",
+    "progress": "None"
   },
   "1ec2171f-5418-80d5-9e59-c3365b90ed8a": {
-    "object": "page",
-    "id": "1ec2171f-5418-80d5-9e59-c3365b90ed8a",
-    "created_time": "2025-05-07T14:51:00.000Z",
     "last_edited_time": "2025-05-29T12:21:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "945bc4aa-4eae-4b47-a4be-412d7b803bef"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "1a6d872b-594c-8132-b0a0-0002812e9b74"
-    },
-    "cover": {
-      "type": "external",
-      "external": {
-        "url": "https://www.notion.so/images/page-cover/webb3.jpg"
-      }
-    },
-    "icon": {
-      "type": "emoji",
-      "emoji": "\ud83e\udde0"
-    },
-    "parent": {
-      "type": "database_id",
-      "database_id": "1ec2171f-5418-806b-8567-f1ebfd1457c6"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Category": {
-        "id": "%3FPqT",
-        "type": "select",
-        "select": {
-          "id": "F~Yh",
-          "name": "SMS (School Management System)",
-          "color": "blue"
-        }
-      },
-      "Assignee": {
-        "id": "%40z%5Ed",
-        "type": "people",
-        "people": []
-      },
-      "Due Date": {
-        "id": "Hbq%3A",
-        "type": "date",
-        "date": {
-          "start": "2025-05-12",
-          "end": "2025-05-16",
-          "time_zone": null
-        }
-      },
-      "Status": {
-        "id": "LM%7D%7C",
-        "type": "status",
-        "status": {
-          "id": "CPup",
-          "name": "Completed",
-          "color": "green"
-        }
-      },
-      "Priority": {
-        "id": "exWA",
-        "type": "select",
-        "select": {
-          "id": "ZUYZ",
-          "name": "Medium",
-          "color": "yellow"
-        }
-      },
-      "Description": {
-        "id": "wOoA",
-        "type": "rich_text",
-        "rich_text": []
-      },
-      "Progress": {
-        "id": "~DoZ",
-        "type": "number",
-        "number": 100
-      },
-      "Task Name": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Concept",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Concept",
-            "href": null
-          }
-        ]
-      }
-    },
     "url": "https://www.notion.so/Concept-1ec2171f541880d59e59c3365b90ed8a",
-    "public_url": null
+    "title": "Concept",
+    "category": "SMS (School Management System)",
+    "assignee": "N/A",
+    "due_date": "2025-05-12",
+    "status": "Completed",
+    "priority": "Medium",
+    "description": "N/A",
+    "progress": "100"
   }
 }
